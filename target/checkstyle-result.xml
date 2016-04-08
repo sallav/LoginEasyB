@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/domain/User.java">
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/io/ConsoleIO.java">
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/io/IO.java">
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/io/StubIO.java">
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/services/AuthenticationService.java">
+<error line="16" column="5" severity="error" message="Cyclomatic Complexity is 4 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+<error line="38" column="5" severity="error" message="Cyclomatic Complexity is 4 (max allowed is 3)." source="com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck"/>
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/App.java">
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/data_access/UserDao.java">
+</file>
+<file name="/home/ad/fshome6/u6/v/varkoi/Linux/LoginEasyB/src/main/java/ohtu/data_access/InMemoryUserDao.java">
+</file>
+</checkstyle>
