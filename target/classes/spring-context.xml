@@ -10,14 +10,19 @@
             http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
     
     
-   <bean id="userDao" class="ohtu.data_access.InMemoryUserDao">
+   <bean id="inMemoryUserDao" class="ohtu.data_access.InMemoryUserDao">
+   </bean>
+   
+   <bean id="fileUserDao" class="ohtu.data_access.FileUserDao">
+       <constructor-arg type="java.lang.String" />
+       <constructor-arg type="java.lang.String" />
    </bean>
    
    <bean id="io" class="ohtu.io.ConsoleIO">
    </bean>
    
    <bean id="authentication" class="ohtu.services.AuthenticationService">
-        <constructor-arg ref="userDao" />
+        <constructor-arg ref="fileUserDao" />
    </bean>
    
    <bean id="app" class="ohtu.App">
